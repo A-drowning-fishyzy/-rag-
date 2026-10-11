@@ -1,0 +1,49 @@
+:root {
+  --blue-600: #2563eb;
+  --blue-500: #3b82f6;
+  --blue-400: #60a5fa;
+  --blue-50: #eff6ff;
+  --blue-100: #dbeafe;
+  --glass-bg: rgba(234, 234, 242, 0.20);
+  --glass-border: rgba(255, 255, 255, 0.65);
+  --glass-shadow: 0 8px 32px rgba(16, 87, 241, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei", "PingFang SC", -apple-system, sans-serif;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  height: 100vh;
+}
+
+:root {
+  --el-color-primary: #2563eb;
+  --el-color-primary-light-3: #548ee9;
+  --el-color-primary-light-5: #7da8ef;
+  --el-color-primary-light-7: #a6c3f4;
+  --el-color-primary-light-8: #bbd1f7;
+  --el-color-primary-light-9: #eff6ff;
+  --el-color-primary-dark-2: #1d4ed8;
+}
+
+.el-dialog {
+  border-radius: 16px !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(16px);
+  box-shadow: var(--glass-shadow) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-layout::before,
+  .app-layout::after {
+    animation: none !important;
+  }
+}
